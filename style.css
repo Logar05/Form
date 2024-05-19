@@ -1,0 +1,292 @@
+	div {
+	  display: block;
+	}
+
+	h1 {
+	  transition: opacity 0.3s;
+	  padding-bottom: 8px;
+	  margin-bottom: 8px;
+	  border-bottom: solid 3px #baa988;
+	  text-align: center;
+	  color: white;
+	  font-size: 50px;
+	  font-family: Courier New;
+	  font-weight: light;
+	  -webkit-text-stroke: 1px #baa988;
+	}
+
+
+	.srednji {
+	  border-top: solid 6px red;
+	  text-align: center;
+	  border-radius: 10px;
+	  margin-top: 20px;
+	  position: fixed;
+	  left: 50%;
+	  -ms-transform: translate(-50%, 0);
+	  transform: translate(-50%, 0);
+	  width: 550px;
+	  height:700px;
+	  word-wrap: break-word;
+	  border-bottom: solid 6px #baa988;
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	  background-color: white;
+	}
+
+	.srednji img {
+	  margin: 0 40px;
+	  max-width: 50px;
+	  height: auto;
+	  vertical-align: middle;
+	}
+
+	p {
+	  text-align: bottom;
+	}
+
+	.glava {
+	  background-color: red;
+	  width: 100%;
+	  height: 50px;
+	  border-radius: 0 0 8px 8px;
+	  text-align: left;
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-start;
+	  top: 0;
+	  position: sticky;
+	}
+
+	.nazaj {
+	  margin-left: 10px;
+	  width: 300px;
+	  height: 30px;
+	  text-align: center;
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-start;
+	}
+
+	html {
+	  margin: 0;
+	  padding: 0;
+	}
+
+	body {
+	  height: 100%;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  -webkit-font-smoothing: antialiased;
+	}
+
+	.vrni {
+	  font-family: Courier New;
+	  color: white;
+	  font-size: 20px;
+	  font-weight: light;
+	  text-decoration: none;
+	}
+
+	.vrni:hover {
+	  color: black;
+	}
+
+	.noga {
+	  background-color: #172030;
+	  color: white;
+	  text-align: center;
+	  padding: 10px;
+	  position: fixed;
+	  display: flex;
+	  bottom: 0;
+	  width: 100%;
+	  height: 12.8%;
+	  align-items: center;
+	}
+
+	.container {
+	  display: flex;
+	  flex-direction: column;
+	  height: auto;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  overflow-y: auto;
+	}
+
+	.title {
+		
+	  margin-top: 40px;	
+	  margin-bottom: 10px;
+	  width: 100%;
+	  height: 50px;
+	  text-align: center;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-size: 25px;
+
+	}
+
+	.forme {
+	  width: 100%;
+	  height: 400px;
+	}
+
+	.membernumber {
+	  width: 80%;
+	  height: 30px;
+	  font-size: 17px;
+	  text-align: center;
+	  border: 1px solid #ccc;
+	  border-radius: 10px;
+	}
+
+	.title {
+	  margin-top: 80px;
+	  margin-bottom: 10px;
+	  width: 100%;
+	  height: 50px;
+	  text-align: center;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-size: 25px;
+	  font-family: Courier New;
+	}
+
+	.ges {
+	  margin-top: 40px;
+	  margin-bottom: 10px;
+	  width: 100%;
+	  height: 50px;
+	  text-align: center;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-size: 25px;
+	  font-family: Courier New;
+	}
+
+	.gumb {
+	  margin-top: 40px;
+	  width: max;
+	  height: 50px;
+	}
+
+	.gumbek {
+	  font-weight: light;
+	  font-family: Courier New;
+	  width: 80%;
+	  height: 40px;
+	  background-color: #b01414;
+	  border: 1px solid white;
+	  border-radius: 10px;
+	  color: white;
+	}
+
+	.registriraj {
+	  margin-top: 10px;
+	}
+
+	.pozabi {
+	  text-decoration: none;
+	  color: #f0000f;
+	  font-family: roboto;
+	  font-weight: bold;
+	  font-size: 22px;
+	}
+
+	.pozabi:hover {
+	  color: black;
+	}
+
+	.telo {
+	  display: flex;
+	  width: 100%;
+	  height: 100%;
+	  flex: 1;
+	}
+
+	.left {
+	  width: 30%;
+	}
+
+	.ticketmaster {
+	  width: 200px;
+	  height: 50px;
+	  display: flex;
+	  align-items: center;
+	  margin-top: 0px;
+	  flex: 1;
+	}
+
+	.termsi {
+	  margin-top: 25px;
+	  width: 100px;
+	  height: 40px;
+	  flex: 1;
+	}
+
+	.tabela {
+	  color: white;
+	  font-size: 16px;
+	  margin-left: 280px;
+	}
+
+	.tabela td {
+	  border-left: solid 2px white;
+	  padding-left: 15px;
+	}
+
+	.tabela td a {
+	  padding-right: 15px;
+	  color: white;
+	  text-decoration: none;
+	}
+
+	.tabela td a:hover {
+	  text-decoration: underline;
+	}
+
+	.tabela td:first-child {
+	  border-left: none;
+	}
+
+	.gumbek:hover {
+	  cursor: pointer;
+	}
+
+	.ticketmaster {
+	  padding-left: 30px;
+	  font-style: italic;
+	  font-family: Arial;
+	}
+
+	.ticketslika {
+	  width: 300px;
+	  height: 100px;
+	  margin-left: 10px;
+	  margin-bottom: 5px;
+	  background-image: url("ticketmaster1.png");
+	  background-size: cover;
+	  background-position: center;
+	  position: relative;
+	}
+
+	.crta {
+	  margin-top: 20px;
+	  width: 75%;
+	  height: 1.4px;
+	  background-color: #D3D3D3;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+
+.coyg{
+	margin-top:30px;
+	color:red;
+	font-size:30px;
+	font-family:Times;
+}

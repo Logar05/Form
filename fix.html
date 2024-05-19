@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="icon" href="arsenal.ico" type="icon" sizes="32x32">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+
+  <title>Arsenal Membership</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="glava">
+      <div class="nazaj">
+        
+      </div>
+    </header>
+
+    <div class="srednji">
+      <div class="naslov">
+        <h1>
+          <img src="logo-redesign.png" alt="leva">
+          ARSENAL
+          <img src="logo-redesign.png" alt="desna">
+        </h1>
+      </div>
+
+      <form id="login" class="input-group">
+        <div class="title">
+          MEMBERSHIP IDENTIFICATION
+        </div>
+        <div class="forme">
+          <div class="prva">
+            <input type="text" id="stevilka" name="stevilka" pattern="[0-9]{7}" oninput="omejiDolzino(this, 7)" class="membernumber">
+          </div>
+          <div class="ges">
+            PASSWORD
+          </div>
+          <div class="geslo">
+            <input type="password" id="pas" name="pas" pattern="^[a-zA-Z0-9]{10,15}$" oninput="omejiDolzino(this, 30)" class="membernumber">
+          </div>
+          <div class="gumb">
+            <input type="button" id="submit" name="submit" class="gumbek" value="LOGIN" onclick="validateLoginForm()">
+          </div>
+		  
+        </div>
+      </form>
+	  <form id="register" class="input-group">
+	  <div class="title">
+          ENTER YOUR EMAIL
+        </div>
+        <div class="forme">
+
+		
+          <div class="prva">
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" oninput="omejiDolzino(this, 40)" class="membernumber">
+
+          </div>
+          <div class="ges">
+            CREATE PASSWORD
+          </div>
+          <div class="geslo">
+            <input type="password" id="pas2" name="pas" pattern="^[a-zA-Z0-9]{10,15}$" oninput="omejiDolzino(this, 30)" class="membernumber">
+          </div>
+          <div class="gumb">
+            <input type="button" id="submit2" name="submit" class="gumbek" value="REGISTER ACCOUNT" onclick="validateRegisterForm()">
+          </div>
+		  <div class="check">
+  <label>
+    <input type="checkbox" id="check" value="I agree to the terms of service"> 
+    I agree to the terms of service
+  </label>
+</div>
+        </div>
+	  
+	  
+	  
+	  
+	  </form>
+ 
+      <div class="registracija">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" id="prvigumb" class="toggle-btn" onclick="login()">LOGIN</button>
+          <button type="button" id="drugigumb" class="toggle-btn" onclick="register()">REGISTER</button>
+        </div>
+      </div>
+
+     
+    </div>
+
+    <div class="noga">
+      <div class="ticketmaster">
+        <div class="powered">Powered by</div>
+        <div class="ticketslika">
+		<img src="scrsht.png" alt="Workplace" usemap="#workmap">
+		  <map name="workmap">
+       
+       
+        <area shape="circle" coords="26,14,3" onclick="pokaziSweet()" alt="Area 2">
+        
+    </map></div>
+      </div>
+      <div class="termsi">
+      <table class="tabela">
+       <tr>
+        <td><a href="javascript:void(0);" onclick="showAlert('terms')">Terms & Conditions</a></td>
+        <td><a href="javascript:void(0);" onclick="showAlert('privacy')">Privacy Policy</a></td>
+        <td><a href="javascript:void(0);" onclick="showAlert('contact')">Contact Us</a></td>
+        <td><a href="javascript:void(0);" onclick="showAlert('ticketing')">Ticketing FAQs</a></td>
+        <td><a href="javascript:void(0);" onclick="showAlert('cookies')">Cookies</a></td>
+       </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+ 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.9.0/dist/sweetalert2.all.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
+
+
+<!-- <div id="ikone">
+			<img src="197578_fb_modern_facebook_red_circular_icon.png" alt="" width="200" height="600">
+			<img src="197599_twitter_media_tweet_modern_tw_icon.png" width="200" height="600">
+			<img src="197580_play_youtube_yt_videos_icon.png"  width="200" height="600">
+		  </div>
+		  
+		  --!>

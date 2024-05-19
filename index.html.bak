@@ -1,0 +1,18 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="srednji">
+<h1> ARSENAL </h1>
+</div>
+<img src="resize.png" alt="Resize Image" usemap="#imagemap">
+
+<div class="drugi">
+
+</div>
+
+
+</body>
+</html>

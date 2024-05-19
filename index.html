@@ -1,0 +1,85 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascriptss.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.9.0/dist/sweetalert2.all.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<div class="container">
+<header class="glava">
+
+<div class="nazaj">
+<a class="vrni" href="https://www.arsenal.com/">
+RETURN TO SITE ⇦
+</a>
+</div>
+</header>
+<div class="telo">
+<div class="left">
+
+</div>
+<div class="srednji">
+<div class="naslov">
+  <h1>
+    <img src="logo-redesign.png" alt="leva">
+    ARSENAL
+    <img src="logo-redesign.png" alt="desna">
+  </h1>
+  
+</div>
+
+
+
+<div class="title">
+MEMBERSHIP IDENTIFICATION
+</div>
+<div class="forme">
+<div class="prva">
+<input type="text" id="stevilka" name="stevilka" pattern="[0-9]{7}" oninput="omejiDolzino(this, 7)" class="membernumber">
+</div>
+<div class="ges">
+PASSWORD
+</div>
+<div class="geslo">
+<input type="password" id="pas" name="pas" pattern="^[a-zA-Z0-9]{10,15}$" oninput="omejiDolzino(this, 15)" class="membernumber">
+</div>
+<div class="gumb">
+<input type="submit" id="submit" name="submit" class="gumbek" value="LOGIN">
+</div>
+<div class="registriraj">
+<a class="pozabi" href="passwordreset.html">Forgot your password?</a>	
+</div>
+<div class="crta">
+
+</div>
+<div class="coyg">
+#COYG
+</div>
+</div>
+</div>
+</div>
+
+<div class="noga">
+<div class="ticketmaster">
+Powered by
+<div class="ticketslika">
+</div>
+</div>
+<div class="termsi">
+<table class="tabela">
+  <tr>
+    <td ><a href="javascript:void(0);" onclick="showAlert('terms')">Terms & Conditions</a></td>
+    <td ><a href="javascript:void(0);" onclick="showAlert('privacy')">Privacy Policy</a></td>
+    <td ><a href="javascript:void(0);" onclick="showAlert('contact')">Contact Us</a></td>
+    <td ><a href="javascript:void(0);" onclick="showAlert('ticketing')">Ticketing FAQs</a></td>
+    <td> <a href="javascript:void(0);" onclick="showAlert('cookies')">Cookies</a></td>
+  </tr>
+	</table>
+</div>
+</div>
+</div>
+
+</body>
+</html>
